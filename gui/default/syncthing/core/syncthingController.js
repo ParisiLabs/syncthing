@@ -52,6 +52,8 @@ angular.module('syncthing.core')
         $scope.scanProgress = {};
         $scope.themes = [];
         $scope.localChangeEvents = {};
+        $scope.findDevice = {};
+        $scope.deviceName = {};
 
         $scope.localStateTotal = {
             bytes: 0,
